@@ -10,7 +10,7 @@ Console.WriteLine("Mail servisi için 1");
 Console.WriteLine("SMS sevis için 2");
 Console.WriteLine("Yazınız");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Mesajınızı giriniz");
+Console.WriteLine("Mesajınızı girinizz");
 string mesaj = Convert.ToString(Console.ReadLine());
 
 anahtar =Convert.ToString(a);
