@@ -15,6 +15,7 @@ var consumer = new EventingBasicConsumer(channel);
 channel.BasicConsume("1", true, consumer);
 consumer.Received += Consumer_Received;
 Console.ReadLine();
+
 void Consumer_Received(object? sender, BasicDeliverEventArgs e)
 {
     Console.WriteLine("Gelen mesaj:" + Encoding.UTF8.GetString(e.Body.ToArray()));
